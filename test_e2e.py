@@ -21,6 +21,7 @@ class TestOne(Baseclass):
         for card in cards:
             i = i + 1
             cardText = card.text
+            log.info("print cardtext")
             print(cardText)
             log.info(cardText)
             if cardText =="Blackberry":
