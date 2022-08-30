@@ -33,6 +33,7 @@ class TestOne(Baseclass):
         #Confirmpage=confirmpage(self.driver)
         log.info("entering country name")
         Confirm_page.country().send_keys("ame")
+        print(Confirm_page.country())
         #self.driver.find_element(By.ID,"country").send_keys("ame")
         #element=WebDriverWait(self.driver,10).until(EC.presence_of_element_located((By.LINK_TEXT,"United States of America")))
         self.verifylinkpresence("United States of America")
